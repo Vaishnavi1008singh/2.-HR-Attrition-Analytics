@@ -1,0 +1,17 @@
+-- Total Employees
+SELECT COUNT(*) FROM hr_data;
+
+-- Attrition Count
+SELECT Attrition, COUNT(*) 
+FROM hr_data
+GROUP BY Attrition;
+
+-- Department Wise Employees
+SELECT Department, COUNT(*) 
+FROM hr_data
+GROUP BY Department;
+
+-- Average Salary by Department
+SELECT Department, AVG(Salary)
+FROM hr_data
+GROUP BY Department;

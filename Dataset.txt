@@ -1,0 +1,6 @@
+Employee_ ID, Department, Age, Salary, Years_at_Company, Attrition
+1,HR,28,40000,3,No
+2,IT,35,70000,6,Yes
+3,Sales,30,50000,4,No
+4,Finance,40,80000,8,No
+5,IT,29,60000,3,Yes
